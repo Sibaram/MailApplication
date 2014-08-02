@@ -52,6 +52,10 @@ public class GetInboxData {
             inbox.open(Folder.READ_ONLY);//https://github.com/Sibaram/MailApplication.git
             Message messages[] = inbox.getMessages(msgCount - totalRec, msgCount);
             //Message messages[] = inbox.getMessages();
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
+            System.out.println("");
             List<Message> list = Arrays.asList(messages);
             System.out.println("total records==" + list.size());
             System.out.println("Please wait while getting message body content ...");
