@@ -60,6 +60,7 @@ public class GetInboxData {
             System.out.println("");
             System.out.println("sibaram");
             System.out.println("");
+            System.out.println("");
             List<Message> list = Arrays.asList(messages);
             System.out.println("total records==" + list.size());
             System.out.println("Please wait while getting message body content ...");
