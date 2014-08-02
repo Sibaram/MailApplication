@@ -1,0 +1,104 @@
+/* 
+    Document   : CalenderCss
+    Created on : Jan 14, 2014, 4:34:48 PM
+    Author     : Parveen
+    Description:o 
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block; 
+}
+.CalMainDiv
+{
+    width: 80%; 
+    margin-left: 10%;
+    margin-right: 10%;
+    /*border-width: 1px;*/
+}
+.calHead
+{
+    background-color:  #2FAACE;
+    font-family: arial;
+    font-weight: bold;
+    color: #FFF;
+}
+.CalMonthDiv
+{
+    height: 30px;
+    /*width: 100%;*/    
+    border-top-right-radius:  10px;
+    border-top-left-radius:  10px;
+    background-color: #2FAACE;
+}
+.CalMonthTB{
+    width: 100%;
+}
+.LMonth{
+    width: 20%;
+}
+.RMonth{
+    width: 20%;
+}
+.MMonth{
+    width: 60%;
+    
+}
+.CalDay{
+    /*border-radius: 10px;*/
+    border-color: blue;
+    background-color: #DBF0F7;
+    height: 70px;
+    width: 130px;
+    cursor: pointer;
+    /*alignment-adjust: central;*/
+}
+.CalDay:hover{
+    /*border-radius: 10px;*/
+    border-color: blue;
+    background-color: #B0E2FF;
+    height: 70px;
+    width: 130px;
+    /*alignment-adjust: central;*/
+}
+.CalDayNoSchedule{
+    /*border-radius: 10px;*/
+    height: 70px;
+    width: 130px;
+    /*alignment-adjust: central;*/
+}
+
+.CalMMYYYY
+{
+   font-family: arial;
+   font-weight: bold;
+   color: #FFF;
+}
+.onlineClassData
+{
+   font-family:  arial;
+   font-size: 10px;
+   width: 20%;
+   /*color:blue;*/
+   
+}
+.onlineClassName
+{
+    width: 20%;
+    font-family:  arial;
+    font-size: 10px;
+    text-decoration: underline;
+    
+}
+.onlineClassName:hover
+{
+    width: 20%;
+    font-family:  arial;
+    font-size: 10px;
+    text-decoration: none;
+    
+}
+.trStyle{
+    /*border-bottom: 1px solid #aaa;*/
+    /*background-color: #9AFFFF;*/
+}
